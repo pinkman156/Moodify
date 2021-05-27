@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function Weather(props) {
   useEffect(() => {
     let api = "https://api.openweathermap.org/data/2.5/weather";
-    let apiKey = process.env.REACT_APP_WEATHER_KEY;
+    let apiKey = "58bb6154b9fb293bad45b448397de3ee";
     navigator.geolocation.getCurrentPosition(success, error);
     function success(position) {
       let lat = position.coords.latitude;
