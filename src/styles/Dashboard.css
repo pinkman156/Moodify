@@ -1,0 +1,119 @@
+.some {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  color: white;
+  height: 50%;
+  width: 30%;
+}
+
+.Cloudy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  color: white;
+  height: 50%;
+  width: 30%;
+  background-image: url("https://images.unsplash.com/photo-1500740516770-92bd004b996e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNsb3VkeSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.Thunder {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  height: 50%;
+  width: 30%;
+  background-image: url("https://i1.sndcdn.com/artworks-000504621423-1huu3r-t500x500.jpg");
+}
+
+.Drizzly {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  height: 50%;
+  width: 30%;
+  background-image: url("https://thumbs.dreamstime.com/b/hello-drizzly-day-drizzler-rain-dropped-sunset-wet-grass-43047439.jpg");
+}
+
+.Sunny {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: red;
+  height: 50%;
+  width: 30%;
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/c/a5/ca5baefc-d922-54e1-9429-abd16a353bce/5a94ef342a5d5.image.jpg");
+}
+
+.Rainy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: skyblue;
+  height: 50%;
+  width: 30%;
+  background-image: url("https://s7d2.scene7.com/is/image/TWCNews/heavy_rain_jpg-6");
+}
+
+.Snow {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  height: 50%;
+  width: 30%;
+  background-image: url("https://images.vailresorts.com/image/upload/ar_4:3,c_fill,dpr_3.0,f_auto,g_auto,q_auto/v1/Crested%20Butte/Heros/Brochure/The%20Mountain/Mountain%20Conditions/Weather%20Report/NEW_weather_HERO.jpg");
+}
+
+@media only screen and (max-width: 700px) {
+  .Cloudy {
+    margin-top: 15%;
+    margin-bottom: 50%;
+    width: 80%;
+    height: 90%;
+  }
+  .some {
+    width: 50%;
+  }
+
+  .title {
+    display: none;
+  }
+}

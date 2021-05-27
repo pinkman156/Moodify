@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Neuton", serif;
+}
+
+.loginpage {
+  background-color: black;
+  background-image: url("https://cutewallpaper.org/21/website-background-images-hd/Cool-Backgrounds-for-Laptops-59-images.jpg");
+
+  /* background-size: cover; */
+}
+
+.Navbar {
+  background: rgb(6, 66, 79, 0.95);
+  background: linear-gradient(
+    180deg,
+    rgba(6, 66, 79, 1) 0%,
+    rgba(36, 47, 64, 1) 83%,
+    rgba(41, 35, 71, 1) 100%
+  );
+  overflow: hidden;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  /* background: rgba(50, 50, 50, 0.95); */
+  box-shadow: 0 10px 10px rgba(50, 50, 50, 0.95);
+}
+
+.login {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #108a16;
+  color: white;
+  font-weight: bold;
+  padding: 14px 25px;
+  /* text-align: center; */
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  position: fixed;
+}
+
+.player {
+  margin-top: auto;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/4e/0f/68/4e0f683f152c1e201daacd7e6bf6d9b8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    display: none;
+  }
+
+  body {
+    background-image: url("https://i.pinimg.com/originals/4e/0f/68/4e0f683f152c1e201daacd7e6bf6d9b8.png");
+    background-size: cover;
+  }
+}
